@@ -1975,3 +1975,17 @@ ul.latest-post a i {
 
 
 /* -------------------- End media queries -------------------- */
+
+.post-media {
+    text-align: center;
+}
+
+.post-media img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    max-width: 210px;
+    max-height: 210px;
+    margin-bottom: 20px;
+}
