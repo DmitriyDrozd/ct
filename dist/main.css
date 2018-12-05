@@ -2039,3 +2039,12 @@ ul.latest-post a i {
     max-height: 100%;
     border-radius: 0;
 }
+
+.rounded-icon {
+    overflow: hidden;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
