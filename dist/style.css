@@ -146,6 +146,7 @@ body {
     border: 15px solid #b4b4b4;
     border-radius: 50%;
     margin: 0 auto;
+    overflow: hidden;
 }
 .intro {
     position: relative;
@@ -159,7 +160,7 @@ body {
     font-weight: 500;
 }
 .intro h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Open Sans', sans-serif;
     color: #333;
     text-transform: uppercase;
@@ -765,7 +766,6 @@ body {
 .testimonial-item {
     background: #f1f1f1;
     position:relative;
-    width: 540px;
     transition: all linear .3s;
 }
 .testimonial-item h2 {
@@ -1350,4 +1350,12 @@ body {
             transform: translateY(0);
     background: rgba(0, 0, 0, 0.1);
   }
+}
+
+.justify {
+    text-align: justify;
+}
+
+.service-item {
+    margin-top: 60px;
 }
